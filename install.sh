@@ -38,7 +38,7 @@ install_packages() {
     case "$PKG_MANAGER" in
         apt)
             sudo apt update
-            sudo apt install -y zsh git curl tmux kitty
+            sudo apt install -y git curl tmux kitty
             ;;
         dnf)
             sudo dnf install -y zsh git curl tmux kitty
